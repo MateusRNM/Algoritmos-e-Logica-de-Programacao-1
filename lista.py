@@ -1,5 +1,6 @@
 numeros = []
+soma = 0
 for _ in range(10):
     numeros.append(int(input("Digite o numero: ")))
-for num in numeros:
-    print(num)
+    soma += numeros[_]
+print(f"A média das somas: {(soma/10):.10f}")
